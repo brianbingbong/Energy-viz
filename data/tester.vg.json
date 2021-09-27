@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
     "data": {
-        "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/worldometers_energy.csv"
+        "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/worldometers_energy.csv"
     },
     "transform": [
         {
