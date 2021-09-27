@@ -12,7 +12,12 @@
     ],
     "vconcat": [
         {
+            "height": 400,
+            "width": 600,
             "mark": "bar",
+            "transform": [{
+                "filter": {"param": "brush"}
+            }],
             "encoding": {
                 "x": {
                     "field": "name",
