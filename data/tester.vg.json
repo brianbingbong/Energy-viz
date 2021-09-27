@@ -13,9 +13,6 @@
     "vconcat": [
         {
             "mark": "bar",
-            "transform": [{
-                "filter": {"param": "brush"}
-            }],
             "encoding": {
                 "x": {
                     "field": "name",
