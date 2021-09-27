@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "CO2 Fractional Change 2015 - 2016",
   "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
   "data": {
       "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/worldometers_energy.csv"
@@ -13,7 +14,7 @@
   "vconcat": [
       {
           "height": 400,
-          "width": 600,
+          "width": 1800,
           "mark": "bar",
           "transform": [{
               "filter": {"param": "brush"}
@@ -25,9 +26,10 @@
                   "axis": {
                       "domain": false,
                       "ticks": false,
-                      "labelAngle": 90,
+                      "labelAngle": 270,
                       "labelPadding": 4
-                  }
+                  },
+                  "title": "Country"
               },
               "y": {
                   "field": "co2_emiss_one_year_change",
@@ -40,11 +42,26 @@
                           },
                           "value": "#ddd"
                       }
-                  }
+                  },
+                  "title": "Fractional CO2 Change From 2015"
               },
               "color": {
-                  "field": "greener"
-              }
+                  "field": "greener",
+                  "scale": {
+                    "range": ["green", "orange"]
+                  },
+                  "legend": null
+              },
+              "tooltip": [
+                {
+                  "field": "name",
+                  "title": "Country"
+                },
+                {
+                  "field": "co2_emiss_one_year_change",
+                  "title": "CO2 Fractional Change"
+                }
+              ]
           }
       },
       {
@@ -68,6 +85,13 @@
                   "field": "co2_emiss_one_year_change",
                   "type": "quantitative",
                   "axis": null
+              },
+              "color": {
+                "field": "greener",
+                "scale": {
+                  "range": ["green", "orange"]
+                },
+                "legend": null
               }
           }
       }
