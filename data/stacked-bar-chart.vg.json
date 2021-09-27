@@ -1,39 +1,73 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "world_energy_source_totals.csv"},
-    "mark": "bar",
-    "height": 600,
-    "width": 600,
+    "data": {"url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/world_energy_source_totals.csv"},
     "transform": [
       {
         "calculate": "if(datum.energy_source === 'Nuclear/Renewable', 0, if(datum.energy_source === 'Oil', 1, if(datum.energy_source === 'Gas', 2, 3)))",
         "as": "energy_source_order"
-      },
-      {
-        "filter":
-        {
-          "field": "name",
-          "oneOf": ["China", "United States", "Russia", "Inida", "Japan", "Canada", "Germany"]
-        }
       }
     ],
-    "encoding": {
-      "x": {
-        "field": "name",
-        "type": "nominal",
-        "title": "Country"
+    "vconcat": [
+      {
+        "height": 400,
+        "width": 1800,
+        "mark": "bar",
+        "transform": [{
+          "filter": {"param": "brush"}
+        }],
+        "encoding": {
+          "x": {
+            "field": "name",
+            "type": "nominal",
+            "title": "Country",
+            "sort": "-y"
+          },
+          "y": {
+            "field": "energy",
+            "type": "quantitative"
+          },
+          "color": {
+            "field": "energy_source",
+            "type": "nominal",
+            "title": "Energy Source"
+          },
+          "order": {
+            "field": "energy_source_order"
+          }
+        }
       },
-      "y": {
-        "field": "energy",
-        "type": "quantitative"
-      },
-      "color": {
-        "field": "energy_source",
-        "type": "nominal",
-        "title": "Energy Source"
-      },
-      "order": {
-        "field": "energy_source_order"
+      {
+        "height": 50,
+        "width": 200,
+        "params": [{
+          "name": "brush",
+          "select": {
+            "type": "interval",
+            "encodings": ["x"]
+          }
+        }],
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "name",
+            "type": "nominal",
+            "axis": null,
+            "sort": "-y"
+          },
+          "y" : {
+            "field": "energy",
+            "type": "quantitative",
+            "axis": null
+          },
+          "color": {
+            "field": "energy_source",
+            "type": "nominal",
+            "title": "Energy Source"
+          },
+          "order": {
+            "field": "energy_source_order"
+          }
+        }
       }
-    }
+    ]
   }
