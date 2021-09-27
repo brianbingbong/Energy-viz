@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
+    "data": {
+        "url": "worldometers_energy.csv"
+    },
+    "transform": [
+        {
+            "calculate": "datum['co2_emiss_one_year_change'] > 0 ? true : false",
+            "as": "greener"
+        }
+    ],
+    "vconcat": [
+        {
+            "mark": "bar",
+            "transform": [{
+                "filter": {"param": "brush"}
+            }],
+            "encoding": {
+                "x": {
+                    "field": "name",
+                    "type": "nominal",
+                    "axis": {
+                        "domain": false,
+                        "ticks": false,
+                        "labelAngle": 90,
+                        "labelPadding": 4
+                    }
+                },
+                "y": {
+                    "field": "co2_emiss_one_year_change",
+                    "type": "quantitative",
+                    "axis": {
+                        "gridColor": {
+                            "condition": {
+                                "test": "datum.value === 0",
+                                "value": "black"
+                            },
+                            "value": "#ddd"
+                        }
+                    }
+                },
+                "color": {
+                    "field": "greener"
+                }
+            }
+        },
+        {
+            "height": 50,
+            "width": 200,
+            "params": [{
+                "name": "brush",
+                "select": {
+                    "type": "interval",
+                    "encodings": ["x"]
+                }
+            }],
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "name",
+                    "type": "nominal",
+                    "axis": null
+                },
+                "y": {
+                    "field": "co2_emiss_one_year_change",
+                    "type": "quantitative",
+                    "axis": null
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "world_energy_source_totals.csv"},
+    "mark": "bar",
+    "height": 600,
+    "width": 600,
+    "transform": [
+      {
+        "calculate": "if(datum.energy_source === 'Nuclear/Renewable', 0, if(datum.energy_source === 'Oil', 1, if(datum.energy_source === 'Gas', 2, 3)))",
+        "as": "energy_source_order"
+      },
+      {
+        "filter":
+        {
+          "field": "name",
+          "oneOf": ["China", "United States", "Russia", "Inida", "Japan", "Canada", "Germany"]
+        }
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "name",
+        "type": "nominal",
+        "title": "Country"
+      },
+      "y": {
+        "field": "energy",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "energy_source",
+        "type": "nominal",
+        "title": "Energy Source"
+      },
+      "order": {
+        "field": "energy_source_order"
+      }
+    }
+  }

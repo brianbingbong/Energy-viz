@@ -1,0 +1,83 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Renewable Energy Proportion by Country",
+    "width": 600,
+    "height": 400,
+    "projection": {
+        "type": "equalEarth"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/world_map.topojson.json",
+        "format": {
+            "type": "topojson",
+            "feature": "custom.geo"
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            },
+            "encoding": {
+                "tooltip": {
+                    "field": "properties.name"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "lookup": "properties.name",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/worldometers_energy.csv"
+                        },
+                        "key": "name",
+                        "fields": [
+                            "pc_yearly_btu",
+                            "re_nuclear",
+                            "co2_emiss_per_capita"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "geoshape"
+            },
+            "encoding": {
+                "color": {
+                    "field": "re_nuclear",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "teals"
+                    },
+                    "title": "Nuclear/Renewable Proportion"
+                },
+                "tooltip": [
+                    {
+                        "field": "properties.name",
+                        "type": "nominal",
+                        "title": "Country"
+                    },
+                    {
+                        "field": "pc_yearly_btu",
+                        "type": "quantitative",
+                        "title": "Energy per capita (BTU)"
+                    },
+                    {
+                        "field": "re_nuclear",
+                        "type": "quantitative",
+                        "title": "Nuclear/Renewable fraction"
+                    },
+                    {
+                        "field": "co2_emiss_per_capita",
+                        "type": "quantitative",
+                        "title": "CO2 per capita (ton)"
+                    }
+                ]
+            }
+        }
+    ]
+}

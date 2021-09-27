@@ -1,0 +1,102 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Energy Usage against Carbon Dioxide Production",
+    "width": 600,
+    "height": 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/worldometers_energy.csv"
+    },
+    "params": [
+      {
+        "name": "re_above",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "name": "Min Renewable/Nuclear Proportion: "
+        }
+      },
+      {
+        "name": "re_below",
+        "value": 1,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "name": "Max Renewable/Nuclear Proportion: "
+        }
+      }
+    ],
+    "transform": [
+      {"filter": "datum.name != 'Gibraltar'"},
+      {"filter": "datum.pc_yearly_btu > 0"},
+      {"filter": "datum.co2_emiss_per_capita > 0"},
+      {"filter": "datum.re_nuclear > re_above"},
+      {"filter": "datum.re_nuclear < re_below"}
+    ],
+    "mark": {
+      "type": "point",
+      "size": 300,
+      "opacity": 0.8
+    },
+    "encoding": {
+      "x": {
+        "field": "pc_yearly_btu",
+        "type": "quantitative",
+        "title": "Energy per capita (BTU)",
+        "axis": {
+          "tickCount": 6
+        },
+        "scale": 
+          {
+            "zero": false,
+            "type": "log",
+            "domain": [1, 1000000]
+          }
+      },
+      "y": {
+        "field": "co2_emiss_per_capita",
+        "type": "quantitative",
+        "title": "CO2 emissions per capita (ton)",
+        "scale": 
+        {
+          "zero": false,
+          "domain": [0, 28]
+        }
+      },
+      "color": {
+        "field": "re_nuclear", 
+        "type": "quantitative",
+        "title": "Renewable/Nuclear Fraction",
+        "scale": {
+          "scheme": "teals"
+        }
+      },
+      "tooltip": [
+        {
+          "field": "name",
+          "type": "nominal",
+          "title": "Country"
+        },
+        {
+          "field": "re_nuclear",
+          "type": "quantitative",
+          "title": "Renewable/Nuclear Fraction"
+        },
+        {
+          "field": "pc_yearly_btu",
+          "type": "quantitative",
+          "title": "Energy per capita (BTU)"
+        },
+        {
+          "field": "co2_emiss_per_capita",
+          "type": "quantitative",
+          "title": "CO2 per capita (ton)"
+        }
+      ]
+    }
+  }
+  

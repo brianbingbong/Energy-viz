@@ -1,0 +1,833 @@
+name,proportion,energy_source
+Singapore,0.86,Oil
+Poland,0.3,Oil
+Argentina,0.4,Oil
+Netherlands,0.5,Oil
+Kazakhstan,0.18,Oil
+Malaysia,0.41,Oil
+United Arab Emirates,0.39,Oil
+Ukraine,0.13,Oil
+Egypt,0.41,Oil
+Thailand,0.48,Oil
+China,0.18,Oil
+Turkey,0.31,Oil
+Taiwan,0.44,Oil
+Australia,0.39,Oil
+Falkland Islands,0,Oil
+Spain,0.47,Oil
+Kiribati,0,Oil
+Tonga,1,Oil
+South Africa,0.22,Oil
+Saint Pierre & Miquelon,0.5,Oil
+St. Vincent & Grenadines,1,Oil
+Sao Tome & Principe,0.91,Oil
+Cook Islands,0.48,Oil
+British Virgin Islands,0.94,Oil
+Western Sahara,1,Oil
+Comoros,1,Oil
+Saint Kitts & Nevis,0.94,Oil
+Turks and Caicos,0.93,Oil
+Vanuatu,0.81,Oil
+Dominica,0.85,Oil
+Chad,0.9,Oil
+Grenada,0.96,Oil
+Burundi,0.57,Oil
+Guinea-Bissau,0.95,Oil
+Solomon Islands,0.91,Oil
+Central African Republic,0.76,Oil
+Saint Lucia,0.93,Oil
+Gambia,1,Oil
+Eritrea,0.96,Oil
+Samoa,0.91,Oil
+Bermuda,0.99,Oil
+Cayman Islands,1,Oil
+Timor-Leste,1,Oil
+Djibouti,0.99,Oil
+Somalia,0.95,Oil
+Faeroe Islands,0.82,Oil
+French Polynesia,0.9,Oil
+Lesotho,0.61,Oil
+Belize,0.64,Oil
+Cabo Verde,0.94,Oil
+Seychelles,1,Oil
+Sierra Leone,0.94,Oil
+Greenland,0.72,Oil
+French Guiana,0.64,Oil
+Rwanda,0.81,Oil
+Liberia,1,Oil
+Eswatini,0.52,Oil
+Maldives,0.99,Oil
+Aruba,0.94,Oil
+Guadeloupe,0.93,Oil
+Malawi,0.36,Oil
+Barbados,0.93,Oil
+Guyana,0.99,Oil
+Niger,0.76,Oil
+Guam,0.97,Oil
+Martinique,0.98,Oil
+Fiji,0.87,Oil
+U.S. Virgin Islands,1,Oil
+Suriname,0.75,Oil
+Togo,0.76,Oil
+Montenegro,0.39,Oil
+Mauritania,0.9,Oil
+Bahamas,0.99,Oil
+Guinea,0.78,Oil
+Réunion,0.79,Oil
+Haiti,0.99,Oil
+Madagascar,0.68,Oil
+Mali,0.78,Oil
+Burkina Faso,0.92,Oil
+State of Palestine,0.7,Oil
+Gabon,0.65,Oil
+Macao,0.6,Oil
+Bhutan,0.09,Oil
+Estonia,0.67,Oil
+Mauritius,0.72,Oil
+Namibia,0.7,Oil
+New Caledonia,0.57,Oil
+Equatorial Guinea,0.18,Oil
+Uganda,0.66,Oil
+Benin,0.93,Oil
+Macedonia,0.38,Oil
+Congo,0.34,Oil
+Nicaragua,0.75,Oil
+Botswana,0.47,Oil
+Papua New Guinea,0.88,Oil
+Cyprus,0.96,Oil
+Moldova,0.29,Oil
+Albania,0.52,Oil
+Jamaica,0.87,Oil
+Malta,0.88,Oil
+El Salvador,0.69,Oil
+Dem. Rep. Congo,0.32,Oil
+Senegal,0.83,Oil
+Yemen,0.79,Oil
+Zimbabwe,0.32,Oil
+Nepal,0.64,Oil
+Lithuania,0,Oil
+Cambodia,0.59,Oil
+Cameroon,0.49,Oil
+Armenia,0.11,Oil
+Zambia,0.35,Oil
+Brunei ,0.18,Oil
+Honduras,0.7,Oil
+Afghanistan,0.47,Oil
+Côte d'Ivoire,0.5,Oil
+Luxembourg,0.68,Oil
+Iceland,0.2,Oil
+Mongolia,0.26,Oil
+Tajikistan,0.16,Oil
+Gibraltar,1,Oil
+Costa Rica,0.52,Oil
+Latvia,0.49,Oil
+Uruguay,0.45,Oil
+Kyrgyzstan,0.29,Oil
+Georgia,0.25,Oil
+Puerto Rico,0.74,Oil
+Bosnia and Herzegovina,0.28,Oil
+Ghana,0.64,Oil
+Tanzania,0.49,Oil
+Kenya,0.73,Oil
+Guatemala,0.59,Oil
+Slovenia,0.38,Oil
+Mozambique,0.3,Oil
+Croatia,0.43,Oil
+Dominican Republic,0.72,Oil
+Ethiopia,0.57,Oil
+Bolivia,0.59,Oil
+Lebanon,0.98,Oil
+North Korea,0.12,Oil
+Sudan,0.77,Oil
+Angola,0.72,Oil
+Syria,0.63,Oil
+Sri Lanka,0.73,Oil
+Panama,0.82,Oil
+Paraguay,0.23,Oil
+Jordan,0.6,Oil
+Tunisia,0.51,Oil
+Myanmar,0.45,Oil
+Cuba,0.88,Oil
+Laos,0.09,Oil
+Ireland,0.5,Oil
+Libya,0.71,Oil
+Azerbaijan,0.33,Oil
+Ecuador,0.71,Oil
+Morocco,0.7,Oil
+Bulgaria,0.25,Oil
+Slovakia,0.24,Oil
+Denmark,0.44,Oil
+New Zealand,0.38,Oil
+Trinidad and Tobago,0.13,Oil
+Serbia,0.19,Oil
+Bahrain,0.18,Oil
+Israel,0.46,Oil
+Hungary,0.33,Oil
+Belarus,0.29,Oil
+Hong Kong,0.67,Oil
+Greece,0.54,Oil
+Oman,0.3,Oil
+Portugal,0.47,Oil
+Finland,0.36,Oil
+Peru,0.45,Oil
+Switzerland,0.39,Oil
+Nigeria,0.55,Oil
+Austria,0.37,Oil
+Chile,0.48,Oil
+Romania,0.3,Oil
+Bangladesh,0.19,Oil
+Uzbekistan,0.06,Oil
+Colombia,0.41,Oil
+Czech Republic,0.25,Oil
+Kuwait,0.49,Oil
+Turkmenistan,0.17,Oil
+Venezuela,0.39,Oil
+Sweden,0.3,Oil
+Qatar,0.27,Oil
+Iraq,0.92,Oil
+Philippines,0.47,Oil
+Algeria,0.35,Oil
+Belgium,0.51,Oil
+Norway,0.23,Oil
+Pakistan,0.37,Oil
+Vietnam,0.28,Oil
+Italy,0.37,Oil
+Indonesia,0.45,Oil
+United Kingdom,0.39,Oil
+Mexico,0.5,Oil
+Saudi Arabia,0.63,Oil
+Brazil,0.48,Oil
+France,0.34,Oil
+South Korea,0.44,Oil
+Iran,0.31,Oil
+Germany,0.36,Oil
+Canada,0.33,Oil
+Russia,0.22,Oil
+United States,0.38,Oil
+Japan,0.4,Oil
+India,0.29,Oil
+Antigua and Barbuda,0.97,Oil
+Singapore,0.13,Gas
+Poland,0.16,Gas
+Argentina,0.47,Gas
+Netherlands,0.35,Gas
+Kazakhstan,0.16,Gas
+Malaysia,0.32,Gas
+United Arab Emirates,0.59,Gas
+Ukraine,0.3,Gas
+Egypt,0.53,Gas
+Thailand,0.33,Gas
+China,0.06,Gas
+Turkey,0.3,Gas
+Taiwan,0.19,Gas
+Australia,0.27,Gas
+Falkland Islands,0,Gas
+Spain,0.21,Gas
+Kiribati,0,Gas
+Tonga,0,Gas
+South Africa,0.03,Gas
+Saint Pierre & Miquelon,0,Gas
+St. Vincent & Grenadines,0,Gas
+Sao Tome & Principe,0,Gas
+Cook Islands,0,Gas
+British Virgin Islands,0,Gas
+Western Sahara,0,Gas
+Comoros,0,Gas
+Saint Kitts & Nevis,0,Gas
+Turks and Caicos,0,Gas
+Vanuatu,0,Gas
+Dominica,0,Gas
+Chad,0,Gas
+Grenada,0,Gas
+Burundi,0,Gas
+Guinea-Bissau,0,Gas
+Solomon Islands,0,Gas
+Central African Republic,0,Gas
+Saint Lucia,0,Gas
+Gambia,0,Gas
+Eritrea,0,Gas
+Samoa,0,Gas
+Bermuda,0,Gas
+Cayman Islands,0,Gas
+Timor-Leste,0,Gas
+Djibouti,0,Gas
+Somalia,0,Gas
+Faeroe Islands,0,Gas
+French Polynesia,0,Gas
+Lesotho,0,Gas
+Belize,0,Gas
+Cabo Verde,0,Gas
+Seychelles,0,Gas
+Sierra Leone,0,Gas
+Greenland,0,Gas
+French Guiana,0,Gas
+Rwanda,0,Gas
+Liberia,0,Gas
+Eswatini,0,Gas
+Maldives,0,Gas
+Aruba,0,Gas
+Guadeloupe,0,Gas
+Malawi,0,Gas
+Barbados,0.03,Gas
+Guyana,0,Gas
+Niger,0,Gas
+Guam,0,Gas
+Martinique,0,Gas
+Fiji,0,Gas
+U.S. Virgin Islands,0,Gas
+Suriname,0,Gas
+Togo,0,Gas
+Montenegro,0,Gas
+Mauritania,0,Gas
+Bahamas,0,Gas
+Guinea,0,Gas
+Réunion,0,Gas
+Haiti,0,Gas
+Madagascar,0,Gas
+Mali,0,Gas
+Burkina Faso,0,Gas
+State of Palestine,0,Gas
+Gabon,0.22,Gas
+Macao,0.14,Gas
+Bhutan,0,Gas
+Estonia,0.21,Gas
+Mauritius,0,Gas
+Namibia,0,Gas
+New Caledonia,0,Gas
+Equatorial Guinea,0.74,Gas
+Uganda,0,Gas
+Benin,0,Gas
+Macedonia,0.07,Gas
+Congo,0.54,Gas
+Nicaragua,0,Gas
+Botswana,0,Gas
+Papua New Guinea,0.04,Gas
+Cyprus,0,Gas
+Moldova,0.63,Gas
+Albania,0.02,Gas
+Jamaica,0.06,Gas
+Malta,0.08,Gas
+El Salvador,0,Gas
+Dem. Rep. Congo,0,Gas
+Senegal,0.01,Gas
+Yemen,0.14,Gas
+Zimbabwe,0,Gas
+Nepal,0,Gas
+Lithuania,0.6,Gas
+Cambodia,0,Gas
+Cameroon,0.23,Gas
+Armenia,0.59,Gas
+Zambia,0,Gas
+Brunei ,0.82,Gas
+Honduras,0,Gas
+Afghanistan,0.04,Gas
+Côte d'Ivoire,0.46,Gas
+Luxembourg,0.17,Gas
+Iceland,0,Gas
+Mongolia,0,Gas
+Tajikistan,0,Gas
+Gibraltar,0,Gas
+Costa Rica,0,Gas
+Latvia,0.24,Gas
+Uruguay,0.01,Gas
+Kyrgyzstan,0.03,Gas
+Georgia,0.34,Gas
+Puerto Rico,0.18,Gas
+Bosnia and Herzegovina,0.03,Gas
+Ghana,0.17,Gas
+Tanzania,0.4,Gas
+Kenya,0,Gas
+Guatemala,0,Gas
+Slovenia,0.11,Gas
+Mozambique,0.25,Gas
+Croatia,0.27,Gas
+Dominican Republic,0.13,Gas
+Ethiopia,0,Gas
+Bolivia,0.34,Gas
+Lebanon,0,Gas
+North Korea,0,Gas
+Sudan,0,Gas
+Angola,0.08,Gas
+Syria,0.35,Gas
+Sri Lanka,0,Gas
+Panama,0,Gas
+Paraguay,0,Gas
+Jordan,0.36,Gas
+Tunisia,0.48,Gas
+Myanmar,0.32,Gas
+Cuba,0.1,Gas
+Laos,0,Gas
+Ireland,0.31,Gas
+Libya,0.29,Gas
+Azerbaijan,0.64,Gas
+Ecuador,0.02,Gas
+Morocco,0.06,Gas
+Bulgaria,0.16,Gas
+Slovakia,0.24,Gas
+Denmark,0.17,Gas
+New Zealand,0.21,Gas
+Trinidad and Tobago,0.87,Gas
+Serbia,0.15,Gas
+Bahrain,0.82,Gas
+Israel,0.34,Gas
+Hungary,0.36,Gas
+Belarus,0.67,Gas
+Hong Kong,0.09,Gas
+Greece,0.16,Gas
+Oman,0.69,Gas
+Portugal,0.22,Gas
+Finland,0.07,Gas
+Peru,0.28,Gas
+Switzerland,0.11,Gas
+Nigeria,0.41,Gas
+Austria,0.23,Gas
+Chile,0.13,Gas
+Romania,0.29,Gas
+Bangladesh,0.77,Gas
+Uzbekistan,0.86,Gas
+Colombia,0.2,Gas
+Czech Republic,0.18,Gas
+Kuwait,0.5,Gas
+Turkmenistan,0.83,Gas
+Venezuela,0.37,Gas
+Sweden,0.01,Gas
+Qatar,0.72,Gas
+Iraq,0.05,Gas
+Philippines,0.06,Gas
+Algeria,0.65,Gas
+Belgium,0.23,Gas
+Norway,0.08,Gas
+Pakistan,0.43,Gas
+Vietnam,0.09,Gas
+Italy,0.4,Gas
+Indonesia,0.23,Gas
+United Kingdom,0.36,Gas
+Mexico,0.36,Gas
+Saudi Arabia,0.37,Gas
+Brazil,0.1,Gas
+France,0.16,Gas
+South Korea,0.15,Gas
+Iran,0.67,Gas
+Germany,0.24,Gas
+Canada,0.31,Gas
+Russia,0.52,Gas
+United States,0.29,Gas
+Japan,0.25,Gas
+India,0.07,Gas
+Antigua and Barbuda,0,Gas
+Singapore,0,Coal
+Poland,0.53,Coal
+Argentina,0.01,Coal
+Netherlands,0.1,Coal
+Kazakhstan,0.64,Coal
+Malaysia,0.2,Coal
+United Arab Emirates,0.02,Coal
+Ukraine,0.29,Coal
+Egypt,0.02,Coal
+Thailand,0.12,Coal
+China,0.63,Coal
+Turkey,0.26,Coal
+Taiwan,0.3,Coal
+Australia,0.29,Coal
+Falkland Islands,0,Coal
+Spain,0.08,Coal
+Kiribati,0,Coal
+Tonga,0,Coal
+South Africa,0.7,Coal
+Saint Pierre & Miquelon,0,Coal
+St. Vincent & Grenadines,0,Coal
+Sao Tome & Principe,0,Coal
+Cook Islands,0,Coal
+British Virgin Islands,0,Coal
+Western Sahara,0,Coal
+Comoros,0,Coal
+Saint Kitts & Nevis,0,Coal
+Turks and Caicos,0,Coal
+Vanuatu,0,Coal
+Dominica,0,Coal
+Chad,0,Coal
+Grenada,0,Coal
+Burundi,0,Coal
+Guinea-Bissau,0,Coal
+Solomon Islands,0,Coal
+Central African Republic,0,Coal
+Saint Lucia,0,Coal
+Gambia,0,Coal
+Eritrea,0,Coal
+Samoa,0,Coal
+Bermuda,0,Coal
+Cayman Islands,0,Coal
+Timor-Leste,0,Coal
+Djibouti,0,Coal
+Somalia,0,Coal
+Faeroe Islands,0,Coal
+French Polynesia,0,Coal
+Lesotho,0,Coal
+Belize,0,Coal
+Cabo Verde,0,Coal
+Seychelles,0,Coal
+Sierra Leone,0,Coal
+Greenland,0,Coal
+French Guiana,0,Coal
+Rwanda,0,Coal
+Liberia,0,Coal
+Eswatini,0.16,Coal
+Maldives,0,Coal
+Aruba,0,Coal
+Guadeloupe,0,Coal
+Malawi,0.07,Coal
+Barbados,0,Coal
+Guyana,0,Coal
+Niger,0.16,Coal
+Guam,0,Coal
+Martinique,0,Coal
+Fiji,0,Coal
+U.S. Virgin Islands,0,Coal
+Suriname,0,Coal
+Togo,0.08,Coal
+Montenegro,0.29,Coal
+Mauritania,0,Coal
+Bahamas,0,Coal
+Guinea,0,Coal
+Réunion,0,Coal
+Haiti,0,Coal
+Madagascar,0.16,Coal
+Mali,0,Coal
+Burkina Faso,0,Coal
+State of Palestine,0,Coal
+Gabon,0,Coal
+Macao,0,Coal
+Bhutan,0.02,Coal
+Estonia,0.01,Coal
+Mauritius,0.21,Coal
+Namibia,0,Coal
+New Caledonia,0.38,Coal
+Equatorial Guinea,0,Coal
+Uganda,0,Coal
+Benin,0.03,Coal
+Macedonia,0.35,Coal
+Congo,0,Coal
+Nicaragua,0,Coal
+Botswana,0.5,Coal
+Papua New Guinea,0,Coal
+Cyprus,0,Coal
+Moldova,0.04,Coal
+Albania,0.02,Coal
+Jamaica,0.02,Coal
+Malta,0,Coal
+El Salvador,0,Coal
+Dem. Rep. Congo,0,Coal
+Senegal,0.11,Coal
+Yemen,0.06,Coal
+Zimbabwe,0.41,Coal
+Nepal,0.04,Coal
+Lithuania,0.04,Coal
+Cambodia,0.23,Coal
+Cameroon,0,Coal
+Armenia,0,Coal
+Zambia,0.03,Coal
+Brunei ,0,Coal
+Honduras,0,Coal
+Afghanistan,0.32,Coal
+Côte d'Ivoire,0,Coal
+Luxembourg,0.01,Coal
+Iceland,0.02,Coal
+Mongolia,0.7,Coal
+Tajikistan,0.16,Coal
+Gibraltar,0,Coal
+Costa Rica,0,Coal
+Latvia,0.01,Coal
+Uruguay,0,Coal
+Kyrgyzstan,0.16,Coal
+Georgia,0.03,Coal
+Puerto Rico,0.07,Coal
+Bosnia and Herzegovina,0.61,Coal
+Ghana,0,Coal
+Tanzania,0.03,Coal
+Kenya,0.03,Coal
+Guatemala,0.16,Coal
+Slovenia,0.16,Coal
+Mozambique,0,Coal
+Croatia,0.04,Coal
+Dominican Republic,0.08,Coal
+Ethiopia,0.04,Coal
+Bolivia,0,Coal
+Lebanon,0.01,Coal
+North Korea,0.55,Coal
+Sudan,0,Coal
+Angola,0,Coal
+Syria,0,Coal
+Sri Lanka,0.16,Coal
+Panama,0.02,Coal
+Paraguay,0,Coal
+Jordan,0.01,Coal
+Tunisia,0,Coal
+Myanmar,0.01,Coal
+Cuba,0,Coal
+Laos,0.66,Coal
+Ireland,0.07,Coal
+Libya,0,Coal
+Azerbaijan,0,Coal
+Ecuador,0,Coal
+Morocco,0.17,Coal
+Bulgaria,0.33,Coal
+Slovakia,0.18,Coal
+Denmark,0.08,Coal
+New Zealand,0.05,Coal
+Trinidad and Tobago,0,Coal
+Serbia,0.5,Coal
+Bahrain,0,Coal
+Israel,0.19,Coal
+Hungary,0.1,Coal
+Belarus,0.01,Coal
+Hong Kong,0.2,Coal
+Greece,0.17,Coal
+Oman,0,Coal
+Portugal,0.12,Coal
+Finland,0.09,Coal
+Peru,0.01,Coal
+Switzerland,0,Coal
+Nigeria,0,Coal
+Austria,0.06,Coal
+Chile,0.19,Coal
+Romania,0.15,Coal
+Bangladesh,0.04,Coal
+Uzbekistan,0.04,Coal
+Colombia,0.11,Coal
+Czech Republic,0.38,Coal
+Kuwait,0,Coal
+Turkmenistan,0,Coal
+Venezuela,0,Coal
+Sweden,0.03,Coal
+Qatar,0,Coal
+Iraq,0,Coal
+Philippines,0.36,Coal
+Algeria,0,Coal
+Belgium,0.04,Coal
+Norway,0.01,Coal
+Pakistan,0.07,Coal
+Vietnam,0.43,Coal
+Italy,0.06,Coal
+Indonesia,0.28,Coal
+United Kingdom,0.05,Coal
+Mexico,0.06,Coal
+Saudi Arabia,0,Coal
+Brazil,0.05,Coal
+France,0.04,Coal
+South Korea,0.28,Coal
+Iran,0,Coal
+Germany,0.21,Coal
+Canada,0.04,Coal
+Russia,0.15,Coal
+United States,0.14,Coal
+Japan,0.24,Coal
+India,0.55,Coal
+Antigua and Barbuda,0,Coal
+Singapore,0,Nuclear/Renewable
+Poland,0.01,Nuclear/Renewable
+Argentina,0.13,Nuclear/Renewable
+Netherlands,0.05,Nuclear/Renewable
+Kazakhstan,0.03,Nuclear/Renewable
+Malaysia,0.07,Nuclear/Renewable
+United Arab Emirates,0,Nuclear/Renewable
+Ukraine,0.27,Nuclear/Renewable
+Egypt,0.04,Nuclear/Renewable
+Thailand,0.07,Nuclear/Renewable
+China,0.12,Nuclear/Renewable
+Turkey,0.13,Nuclear/Renewable
+Taiwan,0.07,Nuclear/Renewable
+Australia,0.06,Nuclear/Renewable
+Falkland Islands,1,Nuclear/Renewable
+Spain,0.24,Nuclear/Renewable
+Kiribati,1,Nuclear/Renewable
+Tonga,0,Nuclear/Renewable
+South Africa,0.04,Nuclear/Renewable
+Saint Pierre & Miquelon,0.5,Nuclear/Renewable
+St. Vincent & Grenadines,0,Nuclear/Renewable
+Sao Tome & Principe,0.09,Nuclear/Renewable
+Cook Islands,0.52,Nuclear/Renewable
+British Virgin Islands,0.06,Nuclear/Renewable
+Western Sahara,0,Nuclear/Renewable
+Comoros,0,Nuclear/Renewable
+Saint Kitts & Nevis,0.06,Nuclear/Renewable
+Turks and Caicos,0.07,Nuclear/Renewable
+Vanuatu,0.19,Nuclear/Renewable
+Dominica,0.15,Nuclear/Renewable
+Chad,0.1,Nuclear/Renewable
+Grenada,0.04,Nuclear/Renewable
+Burundi,0.43,Nuclear/Renewable
+Guinea-Bissau,0.05,Nuclear/Renewable
+Solomon Islands,0.09,Nuclear/Renewable
+Central African Republic,0.24,Nuclear/Renewable
+Saint Lucia,0.07,Nuclear/Renewable
+Gambia,0,Nuclear/Renewable
+Eritrea,0.04,Nuclear/Renewable
+Samoa,0.09,Nuclear/Renewable
+Bermuda,0.01,Nuclear/Renewable
+Cayman Islands,0,Nuclear/Renewable
+Timor-Leste,0,Nuclear/Renewable
+Djibouti,0.01,Nuclear/Renewable
+Somalia,0.05,Nuclear/Renewable
+Faeroe Islands,0.18,Nuclear/Renewable
+French Polynesia,0.1,Nuclear/Renewable
+Lesotho,0.39,Nuclear/Renewable
+Belize,0.36,Nuclear/Renewable
+Cabo Verde,0.06,Nuclear/Renewable
+Seychelles,0,Nuclear/Renewable
+Sierra Leone,0.06,Nuclear/Renewable
+Greenland,0.28,Nuclear/Renewable
+French Guiana,0.36,Nuclear/Renewable
+Rwanda,0.19,Nuclear/Renewable
+Liberia,0,Nuclear/Renewable
+Eswatini,0.32,Nuclear/Renewable
+Maldives,0.01,Nuclear/Renewable
+Aruba,0.06,Nuclear/Renewable
+Guadeloupe,0.07,Nuclear/Renewable
+Malawi,0.57,Nuclear/Renewable
+Barbados,0.04,Nuclear/Renewable
+Guyana,0.01,Nuclear/Renewable
+Niger,0.07,Nuclear/Renewable
+Guam,0.03,Nuclear/Renewable
+Martinique,0.02,Nuclear/Renewable
+Fiji,0.13,Nuclear/Renewable
+U.S. Virgin Islands,0,Nuclear/Renewable
+Suriname,0.25,Nuclear/Renewable
+Togo,0.16,Nuclear/Renewable
+Montenegro,0.32,Nuclear/Renewable
+Mauritania,0.1,Nuclear/Renewable
+Bahamas,0.01,Nuclear/Renewable
+Guinea,0.22,Nuclear/Renewable
+Réunion,0.21,Nuclear/Renewable
+Haiti,0.01,Nuclear/Renewable
+Madagascar,0.16,Nuclear/Renewable
+Mali,0.22,Nuclear/Renewable
+Burkina Faso,0.08,Nuclear/Renewable
+State of Palestine,0.3,Nuclear/Renewable
+Gabon,0.13,Nuclear/Renewable
+Macao,0.27,Nuclear/Renewable
+Bhutan,0.89,Nuclear/Renewable
+Estonia,0.11,Nuclear/Renewable
+Mauritius,0.07,Nuclear/Renewable
+Namibia,0.3,Nuclear/Renewable
+New Caledonia,0.05,Nuclear/Renewable
+Equatorial Guinea,0.08,Nuclear/Renewable
+Uganda,0.34,Nuclear/Renewable
+Benin,0.04,Nuclear/Renewable
+Macedonia,0.19,Nuclear/Renewable
+Congo,0.12,Nuclear/Renewable
+Nicaragua,0.25,Nuclear/Renewable
+Botswana,0.03,Nuclear/Renewable
+Papua New Guinea,0.08,Nuclear/Renewable
+Cyprus,0.03,Nuclear/Renewable
+Moldova,0.05,Nuclear/Renewable
+Albania,0.44,Nuclear/Renewable
+Jamaica,0.05,Nuclear/Renewable
+Malta,0.03,Nuclear/Renewable
+El Salvador,0.31,Nuclear/Renewable
+Dem. Rep. Congo,0.67,Nuclear/Renewable
+Senegal,0.04,Nuclear/Renewable
+Yemen,0.01,Nuclear/Renewable
+Zimbabwe,0.27,Nuclear/Renewable
+Nepal,0.32,Nuclear/Renewable
+Lithuania,0.35,Nuclear/Renewable
+Cambodia,0.18,Nuclear/Renewable
+Cameroon,0.28,Nuclear/Renewable
+Armenia,0.3,Nuclear/Renewable
+Zambia,0.62,Nuclear/Renewable
+Brunei ,0,Nuclear/Renewable
+Honduras,0.29,Nuclear/Renewable
+Afghanistan,0.17,Nuclear/Renewable
+Côte d'Ivoire,0.05,Nuclear/Renewable
+Luxembourg,0.14,Nuclear/Renewable
+Iceland,0.79,Nuclear/Renewable
+Mongolia,0.04,Nuclear/Renewable
+Tajikistan,0.68,Nuclear/Renewable
+Gibraltar,0,Nuclear/Renewable
+Costa Rica,0.48,Nuclear/Renewable
+Latvia,0.26,Nuclear/Renewable
+Uruguay,0.54,Nuclear/Renewable
+Kyrgyzstan,0.52,Nuclear/Renewable
+Georgia,0.37,Nuclear/Renewable
+Puerto Rico,0.01,Nuclear/Renewable
+Bosnia and Herzegovina,0.08,Nuclear/Renewable
+Ghana,0.19,Nuclear/Renewable
+Tanzania,0.08,Nuclear/Renewable
+Kenya,0.23,Nuclear/Renewable
+Guatemala,0.25,Nuclear/Renewable
+Slovenia,0.35,Nuclear/Renewable
+Mozambique,0.45,Nuclear/Renewable
+Croatia,0.26,Nuclear/Renewable
+Dominican Republic,0.08,Nuclear/Renewable
+Ethiopia,0.39,Nuclear/Renewable
+Bolivia,0.07,Nuclear/Renewable
+Lebanon,0.01,Nuclear/Renewable
+North Korea,0.33,Nuclear/Renewable
+Sudan,0.23,Nuclear/Renewable
+Angola,0.2,Nuclear/Renewable
+Syria,0.01,Nuclear/Renewable
+Sri Lanka,0.11,Nuclear/Renewable
+Panama,0.16,Nuclear/Renewable
+Paraguay,0.77,Nuclear/Renewable
+Jordan,0.03,Nuclear/Renewable
+Tunisia,0.01,Nuclear/Renewable
+Myanmar,0.21,Nuclear/Renewable
+Cuba,0.02,Nuclear/Renewable
+Laos,0.24,Nuclear/Renewable
+Ireland,0.13,Nuclear/Renewable
+Libya,0,Nuclear/Renewable
+Azerbaijan,0.02,Nuclear/Renewable
+Ecuador,0.26,Nuclear/Renewable
+Morocco,0.08,Nuclear/Renewable
+Bulgaria,0.26,Nuclear/Renewable
+Slovakia,0.34,Nuclear/Renewable
+Denmark,0.3,Nuclear/Renewable
+New Zealand,0.36,Nuclear/Renewable
+Trinidad and Tobago,0,Nuclear/Renewable
+Serbia,0.17,Nuclear/Renewable
+Bahrain,0,Nuclear/Renewable
+Israel,0,Nuclear/Renewable
+Hungary,0.22,Nuclear/Renewable
+Belarus,0.02,Nuclear/Renewable
+Hong Kong,0.03,Nuclear/Renewable
+Greece,0.13,Nuclear/Renewable
+Oman,0,Nuclear/Renewable
+Portugal,0.18,Nuclear/Renewable
+Finland,0.48,Nuclear/Renewable
+Peru,0.26,Nuclear/Renewable
+Switzerland,0.49,Nuclear/Renewable
+Nigeria,0.03,Nuclear/Renewable
+Austria,0.34,Nuclear/Renewable
+Chile,0.21,Nuclear/Renewable
+Romania,0.25,Nuclear/Renewable
+Bangladesh,0.01,Nuclear/Renewable
+Uzbekistan,0.04,Nuclear/Renewable
+Colombia,0.28,Nuclear/Renewable
+Czech Republic,0.19,Nuclear/Renewable
+Kuwait,0,Nuclear/Renewable
+Turkmenistan,0,Nuclear/Renewable
+Venezuela,0.24,Nuclear/Renewable
+Sweden,0.66,Nuclear/Renewable
+Qatar,0,Nuclear/Renewable
+Iraq,0.03,Nuclear/Renewable
+Philippines,0.12,Nuclear/Renewable
+Algeria,0.01,Nuclear/Renewable
+Belgium,0.22,Nuclear/Renewable
+Norway,0.68,Nuclear/Renewable
+Pakistan,0.13,Nuclear/Renewable
+Vietnam,0.2,Nuclear/Renewable
+Italy,0.16,Nuclear/Renewable
+Indonesia,0.04,Nuclear/Renewable
+United Kingdom,0.2,Nuclear/Renewable
+Mexico,0.08,Nuclear/Renewable
+Saudi Arabia,0,Nuclear/Renewable
+Brazil,0.36,Nuclear/Renewable
+France,0.46,Nuclear/Renewable
+South Korea,0.12,Nuclear/Renewable
+Iran,0.02,Nuclear/Renewable
+Germany,0.19,Nuclear/Renewable
+Canada,0.32,Nuclear/Renewable
+Russia,0.11,Nuclear/Renewable
+United States,0.19,Nuclear/Renewable
+Japan,0.1,Nuclear/Renewable
+India,0.09,Nuclear/Renewable
+Antigua and Barbuda,0.03,Nuclear/Renewable

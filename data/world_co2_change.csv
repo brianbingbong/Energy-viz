@@ -1,0 +1,425 @@
+name,co2_emiss_per_capita,year,re_nuclear
+Singapore,8.56,2016,0
+Poland,7.81,2016,0.01
+Argentina,4.61,2016,0.13
+Netherlands,9.62,2016,0.05
+Kazakhstan,13.01,2016,0.03
+Malaysia,8.68,2016,0.07
+United Arab Emirates,23.37,2016,0
+Ukraine,5.22,2016,0.27
+Egypt,2.32,2016,0.04
+Thailand,3.93,2016,0.07
+China,7.38,2016,0.12
+Turkey,4.61,2016,0.13
+Taiwan,11.72,2016,0.07
+Australia,17.1,2016,0.06
+Falkland Islands,16.59,2016,1
+Spain,5.4,2016,0.24
+Kiribati,0.47,2016,1
+Tonga,2.49,2016,0
+South Africa,6.95,2016,0.04
+Saint Pierre & Miquelon,1.49,2016,0.5
+St. Vincent & Grenadines,3.31,2016,0
+Sao Tome & Principe,0.28,2016,0.09
+Cook Islands,2.13,2016,0.52
+British Virgin Islands,3.4,2016,0.06
+Western Sahara,0.39,2016,0
+Comoros,0.14,2016,0
+Saint Kitts & Nevis,3.93,2016,0.06
+Turks and Caicos,1.79,2016,0.07
+Vanuatu,0.49,2016,0.19
+Dominica,2.61,2016,0.15
+Chad,0.11,2016,0.1
+Grenada,5.03,2016,0.04
+Burundi,0.1,2016,0.43
+Guinea-Bissau,0.18,2016,0.05
+Solomon Islands,0.55,2016,0.09
+Central African Republic,0.12,2016,0.24
+Saint Lucia,3.38,2016,0.07
+Gambia,0.12,2016,0
+Eritrea,0.2,2016,0.04
+Samoa,0.87,2016,0.09
+Bermuda,10.09,2016,0.01
+Cayman Islands,6.49,2016,0
+Timor-Leste,0.41,2016,0
+Djibouti,1.62,2016,0.01
+Somalia,0.09,2016,0.05
+Faeroe Islands,0.04,2016,0.18
+French Polynesia,3.65,2016,0.1
+Lesotho,0.15,2016,0.39
+Belize,3.02,2016,0.36
+Cabo Verde,0.19,2016,0.06
+Seychelles,5.43,2016,0
+Sierra Leone,0.17,2016,0.06
+Greenland,0.03,2016,0.28
+French Guiana,5.5,2016,0.36
+Rwanda,0.12,2016,0.19
+Liberia,0.18,2016,0
+Eswatini,0.59,2016,0.32
+Maldives,2.59,2016,0.01
+Aruba,2.74,2016,0.06
+Guadeloupe,6.2,2016,0.07
+Malawi,0.11,2016,0.57
+Barbados,5.39,2016,0.04
+Guyana,4.22,2016,0.01
+Niger,0.1,2016,0.07
+Guam,0,2016,0.03
+Martinique,7.21,2016,0.02
+Fiji,1.95,2016,0.13
+U.S. Virgin Islands,0,2016,0
+Suriname,3.81,2016,0.25
+Togo,0.31,2016,0.16
+Montenegro,25.9,2016,0.32
+Mauritania,0.62,2016,0.1
+Bahamas,11.65,2016,0.01
+Guinea,0.18,2016,0.22
+Réunion,1.3,2016,0.21
+Haiti,0.28,2016,0.01
+Madagascar,0.12,2016,0.16
+Mali,0.09,2016,0.22
+Burkina Faso,0.13,2016,0.08
+State of Palestine,0,2016,0.3
+Gabon,2.84,2016,0.13
+Macao,5.07,2016,0.27
+Bhutan,2.28,2016,0.89
+Estonia,17.02,2016,0.11
+Mauritius,2.53,2016,0.07
+Namibia,1.65,2016,0.3
+New Caledonia,8.53,2016,0.05
+Equatorial Guinea,1.77,2016,0.08
+Uganda,0.13,2016,0.34
+Benin,0.6,2016,0.04
+Macedonia,4.28,2016,0.19
+Congo,1.05,2016,0.12
+Nicaragua,0.84,2016,0.25
+Botswana,2.98,2016,0.03
+Papua New Guinea,1.1,2016,0.08
+Cyprus,5.87,2016,0.03
+Moldova,2.03,2016,0.05
+Albania,1.8,2016,0.44
+Jamaica,3.08,2016,0.05
+Malta,5.18,2016,0.03
+El Salvador,1.08,2016,0.31
+Dem. Rep. Congo,0.08,2016,0.67
+Senegal,0.55,2016,0.04
+Yemen,0.94,2016,0.01
+Zimbabwe,0.72,2016,0.27
+Nepal,0.29,2016,0.32
+Lithuania,4.74,2016,0.35
+Cambodia,0.41,2016,0.18
+Cameroon,0.4,2016,0.28
+Armenia,1.57,2016,0.3
+Zambia,0.26,2016,0.62
+Brunei ,18.28,2016,0
+Honduras,1.01,2016,0.29
+Afghanistan,0.28,2016,0.17
+Côte d'Ivoire,0.42,2016,0.05
+Luxembourg,17.51,2016,0.14
+Iceland,11.81,2016,0.79
+Mongolia,6.08,2016,0.04
+Tajikistan,0.7,2016,0.68
+Gibraltar,16.98,2016,0
+Costa Rica,1.7,2016,0.48
+Latvia,4.13,2016,0.26
+Uruguay,1.9,2016,0.54
+Kyrgyzstan,1.14,2016,0.52
+Georgia,2.14,2016,0.37
+Puerto Rico,0.22,2016,0.01
+Bosnia and Herzegovina,7.58,2016,0.08
+Ghana,0.51,2016,0.19
+Tanzania,0.18,2016,0.08
+Kenya,0.33,2016,0.23
+Guatemala,1.12,2016,0.25
+Slovenia,7.1,2016,0.35
+Mozambique,0.21,2016,0.45
+Croatia,4.61,2016,0.26
+Dominican Republic,2.26,2016,0.08
+Ethiopia,0.1,2016,0.39
+Bolivia,1.76,2016,0.07
+Lebanon,3.26,2016,0.01
+North Korea,2.32,2016,0.33
+Sudan,0.33,2016,0.23
+Angola,1.06,2016,0.2
+Syria,2.18,2016,0.01
+Sri Lanka,0.88,2016,0.11
+Panama,2.87,2016,0.16
+Paraguay,0.89,2016,0.77
+Jordan,2.38,2016,0.03
+Tunisia,2.6,2016,0.01
+Myanmar,0.31,2016,0.21
+Cuba,2.68,2016,0.02
+Laos,0.66,2016,0.24
+Ireland,8.32,2016,0.13
+Libya,8.12,2016,0
+Azerbaijan,3.45,2016,0.02
+Ecuador,2.43,2016,0.26
+Morocco,1.64,2016,0.08
+Bulgaria,7.11,2016,0.26
+Slovakia,6.77,2016,0.34
+Denmark,6.65,2016,0.3
+New Zealand,7.14,2016,0.36
+Trinidad and Tobago,25.39,2016,0
+Serbia,4.65,2016,0.17
+Bahrain,17.15,2016,0
+Israel,8.04,2016,0
+Hungary,5.23,2016,0.22
+Belarus,6.63,2016,0.02
+Hong Kong,6.5,2016,0.03
+Greece,6.39,2016,0.13
+Oman,19.61,2016,0
+Portugal,4.86,2016,0.18
+Finland,9.31,2016,0.48
+Peru,1.87,2016,0.26
+Switzerland,4.73,2016,0.49
+Nigeria,0.44,2016,0.03
+Austria,8.43,2016,0.34
+Chile,4.46,2016,0.21
+Romania,3.98,2016,0.25
+Bangladesh,0.47,2016,0.01
+Uzbekistan,3.48,2016,0.04
+Colombia,1.61,2016,0.28
+Czech Republic,10.53,2016,0.19
+Kuwait,25.65,2016,0
+Turkmenistan,14,2016,0
+Venezuela,5.89,2016,0.24
+Sweden,4.54,2016,0.66
+Qatar,37.29,2016,0
+Iraq,4.44,2016,0.03
+Philippines,1.22,2016,0.12
+Algeria,3.85,2016,0.01
+Belgium,8.34,2016,0.22
+Norway,8.28,2016,0.68
+Pakistan,0.87,2016,0.13
+Vietnam,2.2,2016,0.2
+Italy,5.9,2016,0.16
+Indonesia,2.03,2016,0.04
+United Kingdom,5.55,2016,0.2
+Mexico,3.58,2016,0.08
+Saudi Arabia,15.94,2016,0
+Brazil,2.25,2016,0.36
+France,5.13,2016,0.46
+South Korea,11.85,2016,0.12
+Iran,8.08,2016,0.02
+Germany,9.44,2016,0.19
+Canada,18.58,2016,0.32
+Russia,11.44,2016,0.11
+United States,15.52,2016,0.19
+Japan,9.7,2016,0.1
+India,1.91,2016,0.09
+Antigua and Barbuda,4.64,2016,0.03
+South Sudan,0.37,2016,
+Palau,2.35,2016,
+Anguilla,2.1,2016,
+Saint Helena,2.2,2016,
+Singapore,8.340864,2015,
+Poland,7.601473,2015,
+Argentina,4.602624,2015,
+Netherlands,9.463194,2015,
+Kazakhstan,12.796636,2015,
+Malaysia,8.112328,2015,
+United Arab Emirates,22.334709,2015,
+Ukraine,4.800834,2015,
+Egypt,2.210496,2015,
+Thailand,3.869085,2015,
+China,7.400664,2015,
+Turkey,4.367975,2015,
+Taiwan,11.496148,2015,
+Australia,17.26758,2015,
+Falkland Islands,16.339491,2015,
+Spain,5.56848,2015,
+Kiribati,0.436254,2015,
+Tonga,2.310969,2015,
+South Africa,6.984055,2015,
+Saint Pierre & Miquelon,1.467501,2015,
+St. Vincent & Grenadines,3.260019,2015,
+Sao Tome & Principe,0.27272,2015,
+Cook Islands,1.976853,2015,
+British Virgin Islands,3.34866,2015,
+Western Sahara,0.379821,2015,
+Comoros,0.136388,2015,
+Saint Kitts & Nevis,3.870657,2015,
+Turks and Caicos,1.762792,2015,
+Vanuatu,0.454818,2015,
+Dominica,2.570589,2015,
+Chad,0.107646,2015,
+Grenada,4.954047,2015,
+Burundi,0.09719,2015,
+Guinea-Bissau,0.175338,2015,
+Solomon Islands,0.51051,2015,
+Central African Republic,0.116916,2015,
+Saint Lucia,3.328962,2015,
+Gambia,0.116892,2015,
+Eritrea,0.19042,2015,
+Samoa,0.807534,2015,
+Bermuda,9.937641,2015,
+Cayman Islands,6.391352,2015,
+Timor-Leste,0.391017,2015,
+Djibouti,1.571886,2015,
+Somalia,0.087687,2015,
+Faeroe Islands,0.03976,2015,
+French Polynesia,3.38793,2015,
+Lesotho,0.14613,2015,
+Belize,2.974398,2015,
+Cabo Verde,0.185079,2015,
+Seychelles,5.287734,2015,
+Sierra Leone,0.164169,2015,
+Greenland,0.029742,2015,
+French Guiana,5.40485,2015,
+Rwanda,0.116544,2015,
+Liberia,0.173718,2015,
+Eswatini,0.574601,2015,
+Maldives,2.403779,2015,
+Aruba,2.698626,2015,
+Guadeloupe,6.08592,2015,
+Malawi,0.106414,2015,
+Barbados,5.288668,2015,
+Guyana,4.152058,2015,
+Niger,0.09985,2015,
+Guam,0,2015,
+Martinique,7.085988,2015,
+Fiji,1.80804,2015,
+U.S. Virgin Islands,0,2015,
+Suriname,3.797808,2015,
+Togo,0.293043,2015,
+Montenegro,25.31207,2015,
+Mauritania,0.599416,2015,
+Bahamas,11.474085,2015,
+Guinea,0.17424,2015,
+Réunion,1.25385,2015,
+Haiti,0.275212,2015,
+Madagascar,0.11658,2015,
+Mali,0.087687,2015,
+Burkina Faso,0.125918,2015,
+State of Palestine,0,2015,
+Gabon,2.808192,2015,
+Macao,4.705467,2015,
+Bhutan,2.140008,2015,
+Estonia,16.848098,2015,
+Mauritius,2.53,2015,
+Namibia,1.57707,2015,
+New Caledonia,7.914134,2015,
+Equatorial Guinea,1.77,2015,
+Uganda,0.125034,2015,
+Benin,0.57522,2015,
+Macedonia,4.210664,2015,
+Congo,1.032885,2015,
+Nicaragua,0.824376,2015,
+Botswana,3.091452,2015,
+Papua New Guinea,1.02201,2015,
+Cyprus,5.651049,2015,
+Moldova,1.969303,2015,
+Albania,1.7199,2015,
+Jamaica,3.023944,2015,
+Malta,4.999736,2015,
+El Salvador,1.07514,2015,
+Dem. Rep. Congo,0.076984,2015,
+Senegal,0.529705,2015,
+Yemen,0.924772,2015,
+Zimbabwe,0.750024,2015,
+Nepal,0.26071,2015,
+Lithuania,4.613916,2015,
+Cambodia,0.378512,2015,
+Cameroon,0.39116,2015,
+Armenia,1.521958,2015,
+Zambia,0.250458,2015,
+Brunei ,17.632888,2015,
+Honduras,0.987275,2015,
+Afghanistan,0.260036,2015,
+Côte d'Ivoire,0.415128,2015,
+Luxembourg,16.905905,2015,
+Iceland,11.618678,2015,
+Mongolia,4.980128,2015,
+Tajikistan,0.67641,2015,
+Gibraltar,16.380606,2015,
+Costa Rica,1.66328,2015,
+Latvia,3.989167,2015,
+Uruguay,1.86371,2015,
+Kyrgyzstan,1.111158,2015,
+Georgia,2.077084,2015,
+Puerto Rico,0.216238,2015,
+Bosnia and Herzegovina,7.514812,2015,
+Ghana,0.491946,2015,
+Tanzania,0.1755,2015,
+Kenya,0.31812,2015,
+Guatemala,1.092896,2015,
+Slovenia,6.93315,2015,
+Mozambique,0.205338,2015,
+Croatia,4.470778,2015,
+Dominican Republic,2.194912,2015,
+Ethiopia,0.09597,2015,
+Bolivia,1.724272,2015,
+Lebanon,3.19643,2015,
+North Korea,1.867832,2015,
+Sudan,0.316206,2015,
+Angola,1.026822,2015,
+Syria,2.141196,2015,
+Sri Lanka,0.80476,2015,
+Panama,2.801981,2015,
+Paraguay,0.872467,2015,
+Jordan,2.336446,2015,
+Tunisia,2.57868,2015,
+Myanmar,0.292609,2015,
+Cuba,2.63578,2015,
+Laos,0.607728,2015,
+Ireland,7.896512,2015,
+Libya,7.996576,2015,
+Azerbaijan,3.464145,2015,
+Ecuador,2.547855,2015,
+Morocco,1.631144,2015,
+Bulgaria,7.5366,2015,
+Slovakia,6.652202,2015,
+Denmark,6.302205,2015,
+New Zealand,7.149996,2015,
+Trinidad and Tobago,26.893088,2015,
+Serbia,4.544445,2015,
+Bahrain,16.72125,2015,
+Israel,8.070552,2015,
+Hungary,5.117032,2015,
+Belarus,6.30513,2015,
+Hong Kong,6.42005,2015,
+Greece,6.611733,2015,
+Oman,19.200151,2015,
+Portugal,4.974696,2015,
+Finland,8.972978,2015,
+Peru,1.717408,2015,
+Switzerland,4.83879,2015,
+Nigeria,0.43692,2015,
+Austria,8.300178,2015,
+Chile,4.222282,2015,
+Romania,3.912738,2015,
+Bangladesh,0.44885,2015,
+Uzbekistan,3.42432,2015,
+Colombia,1.623524,2015,
+Czech Republic,10.383633,2015,
+Kuwait,25.30116,2015,
+Turkmenistan,13.9118,2015,
+Venezuela,6.00191,2015,
+Sweden,4.343418,2015,
+Qatar,36.622509,2015,
+Iraq,4.385832,2015,
+Philippines,1.069086,2015,
+Algeria,3.843455,2015,
+Belgium,8.212398,2015,
+Norway,8.20962,2015,
+Pakistan,0.790569,2015,
+Vietnam,2.19802,2015,
+Italy,5.85044,2015,
+Indonesia,1.899877,2015,
+United Kingdom,5.90409,2015,
+Mexico,3.656254,2015,
+Saudi Arabia,15.793352,2015,
+Brazil,2.3868,2015,
+France,5.021757,2015,
+South Korea,11.796675,2015,
+Iran,7.900624,2015,
+Germany,9.319168,2015,
+Canada,18.7658,2015,
+Russia,11.683672,2015,
+United States,15.831952,2015,
+Japan,9.81737,2015,
+India,1.820039,2015,
+Antigua and Barbuda,4.569936,2015,
+South Sudan,0.354534,2015,
+Palau,2.181035,2015,
+Anguilla,2.06808,2015,
+Saint Helena,2.14236,2015,

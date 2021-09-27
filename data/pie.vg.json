@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "World Energy Sources",
+    "width": 400,
+    "height": 400,
+    "data": {
+        "url": "world_energy_sources_all_countries.csv"
+    },
+    "encoding": {
+      "theta": {"field": "total_consumption", "type": "quantitative", "stack": true},
+      "color": {
+        "field": "energy_source", 
+        "type": "nominal",
+        "scale": {
+          "range": ["#fee6ce", "#fdae6b", "teal", "#e6550d"]
+        },
+        "legend": null
+      },
+      "tooltip": [
+        {
+          "field": "energy_source",
+          "type": "nominal",
+          "title": "Energy Source"
+        },
+        {
+          "field": "total_consumption",
+          "type": "quantitative",
+          "title": "Total Energy (BTU)"
+        }
+      ]
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "arc",
+                "outerRadius": 100
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "radius": 130
+            },
+            "encoding": {
+                "text": {
+                    "field": "energy_source",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+  }
