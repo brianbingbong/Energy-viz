@@ -1,35 +1,100 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A Rectangular Unit-Chart",
-    "data": {"url": "worldometers_energy - Copy.csv"},
-    "width": 600,
-    "height": 400,
-    "mark": "rect",
-    "transform": [
-      {"calculate": "ceil(datum.id/ 10)", "as": "X"},
-      {"calculate": "datum.id - (datum.X - 1) *10", "as": "Y"}
-    ], 
-    "encoding": {
-      "x": {
-        "field": "X",
-        "type": "ordinal",
-        "axis": null
-      },
-      "y":{
-        "field": "Y",
-        "type": "ordinal",
-        "axis": null
-      },
-      "color":{
-        "field": "renewable",
-        "type": "nominal"
-      },
-      "tooltip":{
-        "field": "name",
-        "type": "nominal"
-      }
+    "data": {
+        "url": "renewable_energy_user_count.csv"
     },
-    "config":{
-      "cell": {"strokeOpacity": 0}
-    }
-  }
+    "width": 600,
+    "height": 280,
+    "params": [
+        {
+          "name": "re_above",
+          "value": 0,
+          "bind": {
+            "input": "range",
+            "min": 0,
+            "max": 0.99,
+            "step": 0.01,
+            "name": "Min Renewable/Nuclear Proportion: "
+          }
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "ceil(datum.id/ 10)",
+            "as": "X"
+        },
+        {
+            "calculate": "datum.id - (datum.X - 1) *10",
+            "as": "Y"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "rect",
+                "cornerRadius": 50,
+                "fillOpacity": 0.1,
+                "stroke": "orange",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "x": {
+                    "field": "X",
+                    "type": "ordinal",
+                    "axis": null
+                },
+                "y": {
+                    "field": "Y",
+                    "type": "ordinal",
+                    "axis": null
+                },
+                "color": {
+                    "value": "orange"
+                },
+                "tooltip": [{
+                    "field": "name",
+                    "type": "nominal"
+                },
+                {
+                    "field": "re_nuclear",
+                    "type": "quantitative",
+                    "title": "Renewable/Nuclear Proportion"
+                }]
+            }
+        },
+        {
+            "mark": {
+                "type": "rect",
+                "cornerRadius": 50
+            },
+            "transform": [
+                {"filter": "datum.re_nuclear > re_above"}
+            ],
+            "encoding": {
+                "x": {
+                    "field": "X",
+                    "type": "ordinal",
+                    "axis": null
+                },
+                "y": {
+                    "field": "Y",
+                    "type": "ordinal",
+                    "axis": null
+                },
+                "color": {
+                    "value": "teal"
+                },
+                "tooltip": [{
+                    "field": "name",
+                    "type": "nominal"
+                },
+                {
+                    "field": "re_nuclear",
+                    "type": "quantitative",
+                    "title": "Renewable/Nuclear Proportion"
+                }]
+            }
+        }
+    ]
+}
