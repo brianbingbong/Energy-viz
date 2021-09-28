@@ -32,10 +32,10 @@
     "layer": [
         {
             "mark": {
-                "type": "rect",
-                "cornerRadius": 50,
+                "type": "circle",
                 "fillOpacity": 0.1,
                 "stroke": "orange",
+                "size": 600,
                 "strokeWidth": 0.5
             },
             "encoding": {
@@ -65,8 +65,9 @@
         },
         {
             "mark": {
-                "type": "rect",
-                "cornerRadius": 50
+                "type": "circle",
+                "size": 600,
+                "strokeOpacity": 0
             },
             "transform": [
                 {"filter": "datum.re_nuclear > re_above"}
