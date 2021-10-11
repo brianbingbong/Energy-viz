@@ -7,7 +7,7 @@
         "type": "equalEarth"
     },
     "data": {
-        "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/world_map.topojson.json",
+        "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/world_map.topojson.json",
         "format": {
             "type": "topojson",
             "feature": "custom.geo"
@@ -32,7 +32,7 @@
                     "lookup": "properties.name",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/brianbingbong/energy-data-viz/main/data/worldometers_energy.csv"
+                            "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/worldometers_energy.csv"
                         },
                         "key": "name",
                         "fields": [
