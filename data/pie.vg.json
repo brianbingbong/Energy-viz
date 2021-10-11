@@ -6,6 +6,20 @@
     "data": {
         "url": "world_energy_sources_all_countries.csv"
     },
+    "transform": [
+      {
+        "window": [{
+          "op": "sum",
+          "field": "total_consumption",
+          "as": "total_consumption_all"
+        }],
+        "frame": [null, null]
+      },
+      {
+        "calculate": "datum.total_consumption / datum.total_consumption_all",
+        "as": "percent_of_total"
+      }
+    ],
     "encoding": {
       "theta": {"field": "total_consumption", "type": "quantitative", "stack": true},
       "color": {
@@ -47,6 +61,19 @@
                     "type": "nominal"
                 }
             }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "radius": 150
+          },
+          "encoding": {
+            "text": {
+              "field": "percent_of_total",
+              "type": "quantitative",
+              "format": ".0%"
+            }
+          }
         }
     ]
   }

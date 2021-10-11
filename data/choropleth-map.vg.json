@@ -70,7 +70,8 @@
                     {
                         "field": "re_nuclear",
                         "type": "quantitative",
-                        "title": "Nuclear/Renewable fraction"
+                        "title": "Nuclear/Renewable %",
+                        "format": ".0%"
                     },
                     {
                         "field": "co2_emiss_per_capita",
