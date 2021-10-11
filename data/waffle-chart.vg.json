@@ -50,7 +50,7 @@
                     "axis": null
                 },
                 "color": {
-                    "value": "orange"
+                    "value": "#cb181d"
                 },
                 "tooltip": [{
                     "field": "name",
@@ -84,7 +84,7 @@
                     "axis": null
                 },
                 "color": {
-                    "value": "teal"
+                    "value": "#2171b5"
                 },
                 "tooltip": [{
                     "field": "name",

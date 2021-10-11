@@ -51,8 +51,9 @@
                     "field": "pc_yearly_btu",
                     "type": "quantitative",
                     "scale": {
-                        "type": "log",
-                        "scheme": "oranges"
+                        "type": "threshold",
+                        "domain": [5000, 50000, 200000],
+                        "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#cb181d"]
                     },
                     "title": "Energy per capita (BTU)"
                 },

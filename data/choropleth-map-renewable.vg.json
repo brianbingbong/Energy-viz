@@ -51,7 +51,9 @@
                     "field": "re_nuclear",
                     "type": "quantitative",
                     "scale": {
-                        "scheme": "teals"
+                        "type": "threshold",
+                        "domain": [0.25, 0.5, 0.75],
+                        "range": ["#eff3ff", "#bdd7e7", "#6baed6", "#2171b5"]
                     },
                     "title": "Nuclear/Renewable Proportion"
                 },

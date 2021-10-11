@@ -51,8 +51,9 @@
                     "field": "co2_emiss_per_capita",
                     "type": "quantitative",
                     "scale": {
-                        "type": "log",
-                        "scheme": "reds"
+                        "type": "threshold",
+                        "domain": [0.1, 2, 10],
+                        "range": ["#feedde", "#fdbe85", "#fd8d3c", "#d94701"]
                     },
                     "title": "CO2 (ton)"
                 },

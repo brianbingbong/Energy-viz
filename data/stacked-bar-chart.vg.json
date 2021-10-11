@@ -20,7 +20,11 @@
             "field": "name",
             "type": "nominal",
             "title": "Country",
-            "sort": "-y"
+            "sort": "-y",
+            "axis": {
+              "labelAngle": 75,
+              "labelFontSize": 8.5
+            }
           },
           "y": {
             "field": "energy",
@@ -29,7 +33,10 @@
           "color": {
             "field": "energy_source",
             "type": "nominal",
-            "title": "Energy Source"
+            "title": "Energy Source",
+            "scale": {
+              "range": ["#C9C9C9", "#E0CACA", "#2171b5", "#E1D4E9"]
+            }
           },
           "order": {
             "field": "energy_source_order"
@@ -62,7 +69,10 @@
           "color": {
             "field": "energy_source",
             "type": "nominal",
-            "title": "Energy Source"
+            "title": "Energy Source",
+            "scale": {
+              "range": ["#C9C9C9", "#E0CACA", "#2171b5", "#E1D4E9"]
+            }
           },
           "order": {
             "field": "energy_source_order"

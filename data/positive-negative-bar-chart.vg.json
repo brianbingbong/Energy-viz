@@ -24,10 +24,8 @@
                   "field": "name",
                   "type": "nominal",
                   "axis": {
-                      "domain": false,
-                      "ticks": false,
-                      "labelAngle": 270,
-                      "labelPadding": 4
+                    "labelAngle": 75,
+                    "labelFontSize": 8.5
                   },
                   "title": "Country"
               },
@@ -48,7 +46,7 @@
               "color": {
                   "field": "greener",
                   "scale": {
-                    "range": ["green", "orange"]
+                    "range": ["#2171b5", "#d94701"]
                   },
                   "legend": null
               },
@@ -89,7 +87,7 @@
               "color": {
                 "field": "greener",
                 "scale": {
-                  "range": ["green", "orange"]
+                  "range": ["#2171b5", "#d94701"]
                 },
                 "legend": null
               }
