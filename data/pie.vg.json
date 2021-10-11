@@ -76,5 +76,12 @@
             }
           }
         }
-    ]
+    ],
+    "config": {
+      "style": {
+        "cell": {
+          "stroke": "transparent"
+        }
+      }
+    }
   }

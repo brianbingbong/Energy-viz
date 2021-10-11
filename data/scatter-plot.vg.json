@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Energy Usage against Carbon Dioxide Production",
-  "width": 500,
+  "width": 400,
   "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/worldometers_energy.csv"
@@ -172,6 +172,10 @@
     }
   ],
   "config": {
-    "background": "beige"
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
   }
 }

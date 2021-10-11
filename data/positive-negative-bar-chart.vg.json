@@ -14,7 +14,7 @@
   "vconcat": [
       {
           "height": 400,
-          "width": 1800,
+          "width": 1700,
           "mark": "bar",
           "transform": [{
               "filter": {"param": "brush"}
@@ -64,7 +64,7 @@
       },
       {
           "height": 50,
-          "width": 200,
+          "width": 1700,
           "params": [{
               "name": "brush",
               "select": {
@@ -72,7 +72,12 @@
                   "encodings": ["x"]
               }
           }],
-          "mark": "bar",
+          "mark": {
+            "type": "bar",
+            "fill": null,
+            "stroke": "#2171b5",
+            "strokeWidth": 0.5
+          },
           "encoding": {
               "x": {
                   "field": "name",

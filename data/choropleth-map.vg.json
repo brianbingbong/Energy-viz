@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Yearly Energy Usage by Country per Capita",
-    "width": 600,
+    "width": 700,
     "height": 400,
     "projection": {
         "type": "equalEarth"
@@ -55,7 +55,7 @@
                         "domain": [5000, 50000, 200000],
                         "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#cb181d"]
                     },
-                    "title": "Energy per capita (BTU)"
+                    "title": "(BTU)"
                 },
                 "tooltip": [
                     {
@@ -82,5 +82,12 @@
                 ]
             }
         }
-    ]
+    ],
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+      }
 }
