@@ -84,6 +84,7 @@
         }
     ],
     "config": {
+        "background": "#e5f5e0",
         "style": {
           "cell": {
             "stroke": "transparent"

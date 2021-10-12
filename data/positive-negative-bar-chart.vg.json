@@ -74,9 +74,7 @@
           }],
           "mark": {
             "type": "bar",
-            "fill": null,
-            "stroke": "#2171b5",
-            "strokeWidth": 0.5
+            "opacity": 0.4
           },
           "encoding": {
               "x": {
@@ -98,5 +96,8 @@
               }
           }
       }
-  ]
+  ],
+  "config": {
+    "background": "#e5f5e0"
+  }
 }

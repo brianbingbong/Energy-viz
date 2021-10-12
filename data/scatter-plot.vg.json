@@ -91,9 +91,11 @@
         "color": {
           "field": "re_nuclear",
           "type": "quantitative",
-          "title": "Renewable/Nuclear Fraction",
+          "title": ["Renewable", "/Nuclear %"],
           "scale": {
-            "scheme": "teals"
+            "type": "threshold",
+            "domain": [0.1, 0.25, 0.5, 0.75],
+            "range": ["#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
           }
         },
         "tooltip": [
@@ -172,6 +174,7 @@
     }
   ],
   "config": {
+    "background": "#e5f5e0",
     "style": {
       "cell": {
         "stroke": "transparent"

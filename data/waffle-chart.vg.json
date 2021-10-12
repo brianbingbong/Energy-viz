@@ -1,10 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Proportion of Countries Using Renewable/Nuclear Energy",
     "description": "A Rectangular Unit-Chart",
     "data": {
         "url": "https://raw.githubusercontent.com/brianbingbong/Energy-viz/main/data/renewable_energy_user_count.csv"
     },
-    "width": 500,
+    "width": 700,
     "height": 280,
     "params": [
         {
@@ -100,6 +101,7 @@
         }
     ],
     "config": {
+        "background": "#e5f5e0",
         "style": {
           "cell": {
             "stroke": "transparent"

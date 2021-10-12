@@ -1,0 +1,19 @@
+body {
+    background-color: #e5f5e0 !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.left-border-text {
+    padding-left: 3%;
+}
+
+#map-toggle {
+    text-align: center;
+}
