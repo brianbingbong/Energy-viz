@@ -13,7 +13,7 @@
   ],
   "vconcat": [
       {
-          "height": 400,
+          "height": 250,
           "width": "container",
           "mark": "bar",
           "transform": [{
@@ -64,7 +64,8 @@
                 },
                 {
                   "field": "co2_emiss_one_year_change",
-                  "title": "CO2 Fractional Change"
+                  "title": "CO2 Change %",
+                  "format": ".2%"
                 }
               ]
           }

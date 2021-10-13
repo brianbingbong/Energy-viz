@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Renewable Energy Proportion by Country",
     "width": "container",
-    "height": 475,
+    "height": "container",
     "projection": {
         "type": "equalEarth"
     },

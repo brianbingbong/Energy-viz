@@ -9,7 +9,7 @@
     ],
     "vconcat": [
       {
-        "height": 400,
+        "height": 250,
         "width": "container",
         "mark": "bar",
         "transform": [{
@@ -43,7 +43,21 @@
           },
           "order": {
             "field": "energy_source_order"
-          }
+          },
+          "tooltip": [
+            {
+              "field": "name",
+              "title": "Country"
+            },
+            {
+              "field": "energy",
+              "title": "Energy"
+            },
+            {
+              "field": "energy_source",
+              "title": "Source"
+            }
+          ]
         }
       },
       {
