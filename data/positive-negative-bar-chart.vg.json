@@ -14,7 +14,7 @@
   "vconcat": [
       {
           "height": 400,
-          "width": 1700,
+          "width": "container",
           "mark": "bar",
           "transform": [{
               "filter": {"param": "brush"}
@@ -25,9 +25,10 @@
                   "type": "nominal",
                   "axis": {
                     "labelAngle": 75,
-                    "labelFontSize": 8.5
+                    "labelFontSize": 8
                   },
-                  "title": "Country"
+                  "title": "Country",
+                  "sort": "y"
               },
               "y": {
                   "field": "co2_emiss_one_year_change",
@@ -40,6 +41,12 @@
                           },
                           "value": "#ddd"
                       }
+                  },
+                  "scale": {
+                    "domain": [
+                      -0.08,
+                      0.20
+                    ]
                   },
                   "title": "Fractional CO2 Change From 2015"
               },
@@ -64,7 +71,7 @@
       },
       {
           "height": 50,
-          "width": 1700,
+          "width": "container",
           "params": [{
               "name": "brush",
               "select": {
@@ -80,7 +87,8 @@
               "x": {
                   "field": "name",
                   "type": "nominal",
-                  "axis": null
+                  "axis": null,
+                  "sort": "y"
               },
               "y": {
                   "field": "co2_emiss_one_year_change",

@@ -10,10 +10,31 @@ h2 {
     text-align: center;
 }
 
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .left-border-text {
-    padding-left: 3%;
+    padding-left: 10%;
+}
+
+.right-border-text {
+    padding-right: 10%;
+}
+
+#scatter_plot {
+    padding-right: 3%;
 }
 
 #map-toggle {
-    text-align: center;
+    margin-left: 30%;
+}
+
+#stacked_bar_chart {
+    margin-left: 3%;
+}
+
+#positive_negative_bar_chart {
+    margin-left: 3%;
 }

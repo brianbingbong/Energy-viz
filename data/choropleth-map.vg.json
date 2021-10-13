@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Yearly Energy Usage by Country per Capita",
-    "width": 700,
-    "height": 400,
+    "width": "container",
+    "height": 475,
     "projection": {
         "type": "equalEarth"
     },

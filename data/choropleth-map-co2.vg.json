@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Yearly CO2 Production by Country per Capita",
-    "width": 700,
-    "height": 400,
+    "width": "container",
+    "height": 475,
     "projection": {
         "type": "equalEarth"
     },
@@ -82,5 +82,13 @@
                 ]
             }
         }
-    ]
+    ],
+    "config": {
+        "background": "#e5f5e0",
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+      }
 }
