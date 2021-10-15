@@ -1,9 +1,11 @@
 body {
     background-color: #e5f5e0 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1 {
     text-align: center;
+    font-size: 250%;
 }
 
 h2 {
@@ -13,6 +15,7 @@ h2 {
 p {
     padding-left: 5%;
     padding-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .left-border-text {
@@ -37,4 +40,26 @@ p {
 
 #positive_negative_bar_chart {
     margin-left: 3%;
+}
+
+.large-blue-text {
+    color: #2171b5;
+    font-size: large;
+}
+
+.large-red-text {
+    color: #cb181d;
+    font-size: large;
+}
+
+.huge-blue-text {
+    color: #2171b5;
+    font-size: 600%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.huge-orange-text {
+    color: #d94701;
+    font-size: 600%;
 }
