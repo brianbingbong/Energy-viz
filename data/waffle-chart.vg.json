@@ -35,10 +35,10 @@
     "layer": [
         {
             "mark": {
-                "type": "circle",
-                "fillOpacity": 0.1,
-                "stroke": "orange",
-                "size": 400,
+                "type": "square",
+                "fillOpacity": 0.2,
+                "stroke": "#cb181d",
+                "size": 300,
                 "strokeWidth": 0.5
             },
             "encoding": {
@@ -68,8 +68,8 @@
         },
         {
             "mark": {
-                "type": "circle",
-                "size": 500,
+                "type": "square",
+                "size": 300,
                 "strokeOpacity": 0
             },
             "transform": [

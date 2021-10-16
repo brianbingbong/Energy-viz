@@ -57,8 +57,8 @@
         {
             "mark": {
                 "type": "arc",
-                "outerRadius": 120,
-                "stroke": "black"
+                "outerRadius": 120
+                
             }
         },
         {
