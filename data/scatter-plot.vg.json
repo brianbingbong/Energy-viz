@@ -128,9 +128,10 @@
         "type": "text",
         "align": "right",
         "baseline": "middle",
-        "dx": -12,
+        "dx": -8,
         "fontSize": 7,
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "fontWeight": "bolder"
       },
       "encoding": {
         "text": {
@@ -142,7 +143,7 @@
         },
         "size": {
           "condition": {
-            "test": "datum['name'] == 'China' || datum['name'] == 'United States' || datum['name'] == 'Australia' || datum['name'] == 'Montenegro' || datum['name'] == 'Russia' || datum['name'] == 'Inida' || datum['name'] == 'Japan'",
+            "test": "datum['name'] == 'Falkland Islands' || datum['name'] == 'Singapore' || datum['name'] == 'Malta' || datum['name'] == 'Montenegro'",
             "value": 11.5
           },
           "value": 0

@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Yearly CO2 Production by Country per Capita",
+    "title": "Yearly Carbon Dioxide Production by Country per Capita",
     "width": "container",
     "height": "container",
     "projection": {

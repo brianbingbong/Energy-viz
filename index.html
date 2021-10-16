@@ -28,8 +28,7 @@
             <p class="left-border-text">
                 Only 
                 <span class="large-blue-text"><b>15%</b></span> 
-                of the world's energy comes from 
-                <span class="large-blue-text"><b>renewable/nuclear</b></span> 
+                of the world's energy comes from <span class="large-blue-text"><b>renewable/nuclear</b></span> 
                 sources, <span class="large-red-text"><b>85%</b></span>  
                 still comes from <span class="large-red-text"><b>fossil fuels</b></span>
                 in relatively equal proportions.
@@ -61,7 +60,7 @@
                 proportion of 
                 <span class="large-blue-text"><b>renewable/nuclear</b></span>
                 energy have a 
-                <span class="large-blue-text"><b>lower energy to co2</b></span>
+                <span class="large-blue-text"><b>lower energy to CO<sub>2</sub></b></span>
                 production ratio, although 
                 <span class="large-red-text"><b>outliers</b></span> 
                 exist like the
@@ -71,7 +70,7 @@
                 . Countries also exist which use 
                 <span class="large-red-text"><b>almost no renewable energy</b></span>
                 with  
-                <span class="large-blue-text"><b>low energy to co2</b></span> 
+                <span class="large-blue-text"><b>low energy to CO<sub>2</sub></b></span> 
                 production ratios like 
                 <span class="large-blue-text"><b>Singapore and Malta.</b></span>
             </p>
@@ -87,7 +86,7 @@
     <br>
     <br>
     <br>
-    <h2>Country Energy, Carbon Dioxide and Renewability</h2>
+    <h2>World Energy, CO<sub>2</sub> and Renewability</h2>
     <div class="pure-g">
         <div class="pure-u-2-3" id="choropleth_map"></div>
         <div class="pure-u-1-3">
@@ -142,14 +141,14 @@
                 use the 
                 <span class="large-red-text"><b>most energy per capita</b></span>,
                 and subsequently produce the 
-                <span class="large-red-text"><b>most CO2 per capita</b></span>.
+                <span class="large-red-text"><b>most CO<sub>2</sub> per capita</b></span>.
                 Australia, Canada, the United States, Russia, Turkmenistan, Saudi Arabia
                 and 
                 <span class="large-red-text"><b>Iceland</b></span> 
                 are the 
                 <span class="large-red-text"><b>highest energy</b></span> 
                 and 
-                <span class="large-red-text"><b>CO2</b></span> 
+                <span class="large-red-text"><b>CO<sub>2</sub></b></span> 
                 producers.
                 <br>
                 <br>
@@ -166,7 +165,7 @@
                 in comparison to the
                 <span class="large-red-text"><b>hundreds of thousands</b></span>
                 of other nations.
-                <span class="large-red-text"><b>Carbon dioxide</b></span>
+                <span class="large-red-text"><b>CO<sub>2</sub></b></span>
                 production in 
                 <span class="large-blue-text"><b>Africa</b></span> 
                 is 
@@ -177,7 +176,7 @@
     </div>
     <div class="btn-group" id="map-toggle">
         <button onclick="energyToggle()">Energy</button>
-        <button onclick="co2Toggle()">CO2</button>
+        <button onclick="co2Toggle()">CO<sub>2</sub></button>
         <button onclick="renewabilityToggle()">Renewability</button>
     </div>
     <br>
@@ -185,25 +184,21 @@
     <br>
     <br>
     <br>
+    <br>
+    <h2>Countries CO<sub>2</sub> Percentage Change (2015 - 2016)</h2>
     <div class="pure-g">
         <div class="pure-u-22-24" id="positive_negative_bar_chart"></div>
     </div>
+    <span id="positive-negative-bar-scrub-text"><i>Brush me!</i></span>
     <div class="pure-g">
         <div class="pure-u-1-3">
             <p class="left-border-text">
-                Only 
-                <span class="large-blue-text"><b>24/212</b></span> 
-                countries 
-                <span class="large-blue-text"><b>decreased</b></span> 
-                their 
-                <span class="large-red-text"><b>carbon dioxide</b></span> 
-                production between 2015 and 2016.
                 <span class="large-red-text"><b>North Korea</b></span>
                 and 
                 <span class="large-red-text"><b>Mongolia</b></span> 
                 increased their 
-                <span class="large-red-text"><b>CO2</b></span> 
-                production from 2015 the most, increasing by 
+                <span class="large-red-text"><b>CO<sub>2</sub></b></span> 
+                production from 2015 the most out of all countries, increasing by 
                 <span class="large-red-text"><b>19.49%</b></span> 
                 and 
                 <span class="large-red-text"><b>18.09%</b></span>.
@@ -212,8 +207,8 @@
                 and 
                 <span class="large-blue-text"><b>Brazil decreased</b></span> 
                 their 
-                <span class="large-red-text"><b>CO2</b></span> 
-                production from 2015 the most, decreasing by 
+                <span class="large-red-text"><b>CO<sub>2</sub></b></span> 
+                production from 2015 the most out of all countries, decreasing by 
                 <span class="large-blue-text"><b>6.38%</b></span> 
                 and 
                 <span class="large-blue-text"><b>6.08%</b></span>.
@@ -221,18 +216,18 @@
         </div>
         <div class="pure-u-1-3">
             <p>
-                <span class="huge-blue-text"><b>24/212</b></span>
+                <span class="huge-blue-text"><b>&nbsp;24/212</b></span>
             </p>
             <p>
-                countries decreased their carbon dioxide production.
+                <span style="color: #e5f5e0;">--------</span>countries decreased their CO<sub>2</sub> production.
             </p>
         </div>
         <div class="pure-u-1-3">
             <p class="right-border-text">
-                <span class="huge-orange-text"><b>+2.59%</b></span>
+                <span class="huge-orange-text"><b>&nbsp;2.59%</b></span>
             </p>
             <p class="right-border-text">
-                was the average country co2 change of countries
+                increase was the average country CO<sub>2</sub> change of countries
             </p>
         </div>
     </div>
@@ -241,9 +236,12 @@
     <br>
     <br>
     <br>
+    <br>
+    <h2>Countries Total Energy Usage</h2>
     <div class="pure-g">
         <div class="pure-u-21-24" id="stacked_bar_chart"></div>
     </div>
+    <span id="stacked-bar-scrub-text"><i>Brush me!</i></span>
     <div class="pure-g">
         <div class="pure-u-1-3">
             <p class="left-border-text">
@@ -258,16 +256,17 @@
             </p>
         </div>
         <div class="pure-u-1-3">
-            <p class="left-border-text">
+            <p>
                 <span class="large-blue-text"><b>1%</b></span>
                 of the Earth's energy is used by 
                 <span class="large-blue-text"><b>110</b></span>
                 of the countries with the 
-                <span class="large-blue-text"><b>lowest total energy consumption</b></span>
+                <span class="large-blue-text"><b>lowest total energy consumption</b></span>.
+                That is more than half the countries on earth.
             </p>
         </div>
         <div class="pure-u-1-3">
-            <p class="left-border-text">
+            <p class="right-border-text">
                 Most of the 
                 <span class="large-red-text"><b>largest energy consumers</b></span>
                 in the world use a very 

@@ -18,6 +18,10 @@
       {
         "calculate": "datum.total_consumption / datum.total_consumption_all",
         "as": "percent_of_total"
+      },
+      {
+        "calculate": "datum.energy_source + ' ' + round(datum.percent_of_total * 100) + '%'",
+        "as": "percent_label"
       }
     ],
     "encoding": {
@@ -40,6 +44,12 @@
           "field": "total_consumption",
           "type": "quantitative",
           "title": "Total Energy (BTU)"
+        },
+        {
+          "field": "percent_of_total",
+          "type": "quantitative",
+          "format": ".0%",
+          "title": "Percent of Total"
         }
       ]
     },
@@ -47,34 +57,24 @@
         {
             "mark": {
                 "type": "arc",
-                "outerRadius": 100,
+                "outerRadius": 120,
                 "stroke": "black"
             }
         },
         {
             "mark": {
                 "type": "text",
-                "radius": 130
+                "radius": 160,
+                "fontSize": 17,
+                "stroke": "black",
+                "strokeWidth": 0.15
             },
             "encoding": {
                 "text": {
-                    "field": "energy_source",
+                    "field": "percent_label",
                     "type": "nominal"
                 }
             }
-        },
-        {
-          "mark": {
-            "type": "text",
-            "radius": 150
-          },
-          "encoding": {
-            "text": {
-              "field": "percent_of_total",
-              "type": "quantitative",
-              "format": ".0%"
-            }
-          }
         }
     ],
     "config": {

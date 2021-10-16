@@ -28,7 +28,8 @@
           },
           "y": {
             "field": "energy",
-            "type": "quantitative"
+            "type": "quantitative",
+            "title": "Energy (BTU)"
           },
           "color": {
             "field": "energy_source",
